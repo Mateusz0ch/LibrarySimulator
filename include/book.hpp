@@ -7,11 +7,12 @@ class Book{
     std::string title; //Book title
     std::string author; //Author of the book
     int year; // Year when the book was created
+    public:
     Book(std::string,std::string author,int);
     Book()=delete; 
     std::string getTitle();
     std::string getAuthor();
-    int geYear();
+    int getYear();
 };
 
 #endif
